@@ -13,6 +13,8 @@ return [
     |
     */
 
+    'whatsapp_country_code' => env('WHATSAPP_COUNTRY_CODE', '+54'),
+
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
@@ -122,5 +124,5 @@ return [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
-'whatsapp_country_code' => env('WHATSAPP_COUNTRY_CODE', '+54'),
+
 ];
